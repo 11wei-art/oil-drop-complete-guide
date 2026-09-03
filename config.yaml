@@ -1,0 +1,26 @@
+# 油滴数据集下载工具配置文件
+
+# 数据保存目录
+data_dir: "./data"
+
+# Zenodo API 基础 URL
+zenodo_url: "https://zenodo.org/api/records"
+
+# 网络超时时间（秒）
+timeout: 30
+
+# 重试次数
+max_retries: 3
+
+# 下载块大小（字节）
+chunk_size: 8192
+
+# 日志
+logging:
+  level: "INFO"
+  file: "download.log"
+
+# 代理设置（如果需要）
+# proxy:
+#   http: "http://proxy.example.com:8080"
+#   https: "https://proxy.example.com:8080"
